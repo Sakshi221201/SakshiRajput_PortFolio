@@ -1,0 +1,159 @@
+%PDF-1.4
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 2 0 R
+>>
+endobj
+2 0 obj
+<<
+  /Type /Pages
+  /Kids [3 0 R]
+  /Count 1
+>>
+endobj
+3 0 obj
+<<
+  /Type /Page
+  /Parent 2 0 R
+  /MediaBox [0 0 595 842]
+  /Contents 4 0 R
+  /Resources <<
+    /Font <<
+      /F1 5 0 R
+      /F2 6 0 R
+    >>
+  >>
+>>
+endobj
+4 0 obj
+<<
+  /Length 2232
+>>
+stream
+BT
+/F1 10 Tf
+14 TL
+50 780 Td
+/F2 16 Tf
+(Sakshi Rajput) Tj
+/F1 10 Tf
+T*
+T*
+(Full Stack Developer | Pune, Maharashtra, India) Tj
+T*
+(Email: rajputsakshig@gmail.com | GitHub: https://github.com/Sakshi221201) Tj
+T*
+() Tj
+T*
+T*
+/F2 11 Tf
+(SUMMARY:) Tj
+/F1 10 Tf
+T*
+(Full Stack Developer with 2+ years of experience developing responsive web applications,) Tj
+T*
+(cross-platform mobile apps, and robust backend systems. Proficient in React.js, React Native,) Tj
+T*
+(Node.js, Express, PHP, CodeIgniter, MongoDB, MySQL, and REST APIs.) Tj
+T*
+() Tj
+T*
+T*
+/F2 11 Tf
+(PROFESSIONAL EXPERIENCE:) Tj
+/F1 10 Tf
+T*
+(1. Full Stack Developer - Embel Technologies, Pune \(Jan 2025 - Present\)) Tj
+T*
+(   - Developing web and mobile applications using React, React Native, Node.js, and REST APIs.) Tj
+T*
+(   - Engineering frontend components, database operations, debugging, and production support.) Tj
+T*
+() Tj
+T*
+(2. Software Developer - CodingBit IT Solutions, Nashik \(Jan 2024 - Jul 2024\)) Tj
+T*
+(   - Contributed to web software development, application features, and database operations.) Tj
+T*
+(   - Built backend logic with PHP, CodeIgniter, and MySQL.) Tj
+T*
+() Tj
+T*
+T*
+/F2 11 Tf
+(TECHNICAL SKILLS:) Tj
+/F1 10 Tf
+T*
+(- Frontend: React.js, JavaScript \(ES6+\), HTML5, CSS3, Bootstrap) Tj
+T*
+(- Backend: Node.js, Express.js, PHP, CodeIgniter, REST APIs) Tj
+T*
+(- Databases: MongoDB, MySQL, PostgreSQL) Tj
+T*
+(- Mobile & Tools: React Native, Git, GitHub, Postman, VS Code) Tj
+T*
+() Tj
+T*
+T*
+/F2 11 Tf
+(FEATURED PROJECTS:) Tj
+/F1 10 Tf
+T*
+(1. Grain Distribution Mobile App \(React Native, Node.js, Express, MongoDB, Python, Flask\)) Tj
+T*
+(   - Real-time market prices, order booking, AI-based grain quality analysis.) Tj
+T*
+(2. Real-Time Tire Pressure Monitoring System \(React Native, BLE, AsyncStorage, REST APIs\)) Tj
+T*
+(   - Real-time Bluetooth sensor connection, temperature & tire pressure telemetry.) Tj
+T*
+(3. Life Of Chai - Cafe Management System \(PHP, MySQL, CodeIgniter, JavaScript, Bootstrap\)) Tj
+T*
+(   - Cafe management, CRUD operations, dynamic order tracking.) Tj
+T*
+() Tj
+T*
+T*
+/F2 11 Tf
+(EDUCATION:) Tj
+/F1 10 Tf
+T*
+(Master of Computer Applications \(MCA\) - North Maharashtra University \(2019 - 2024\)) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica
+>>
+endobj
+6 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /BaseFont /Helvetica-Bold
+>>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000010 00000 n 
+0000000060 00000 n 
+0000000117 00000 n 
+0000000262 00000 n 
+00000002562 00000 n 
+00000002642 00000 n 
+trailer
+<<
+  /Size 7
+  /Root 1 0 R
+>>
+startxref
+2727
+%%EOF
