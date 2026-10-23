@@ -15,7 +15,7 @@ export const personalInfo = {
   location: "Pune, Maharashtra, India",
   email: "rajputsakshig@gmail.com",
   github: "https://github.com/Sakshi221201",
-  linkedin: "https://www.linkedin.com/in/sakshi-rajput/",
+  linkedin: "https://www.linkedin.com/in/sakshi-rajput-a17569221/",
   resumeUrl: "/SakshiRajput.pdf",
   stats: [
     { label: "Years Experience", value: "2+" },

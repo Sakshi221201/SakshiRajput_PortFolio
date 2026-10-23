@@ -10,6 +10,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
+import profilePhoto from '../assets/Sakshi_Profile_Photo.jpg';
 
 export default function About() {
   const pillars = [
@@ -58,14 +59,27 @@ export default function About() {
           {/* Left Column: Short Intro & Profile Highlights */}
           <div className="lg:col-span-5 space-y-6">
             
-            <div className="p-7 rounded-2xl bg-[#101721] border border-[#232E3B] space-y-5 shadow-lg">
-              <div className="flex items-center gap-3 pb-4 border-b border-[#232E3B]">
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#64F0D1]/20 to-[#7B9CFF]/20 border border-[#64F0D1]/40 flex items-center justify-center text-[#64F0D1]">
-                  <Sparkles className="w-6 h-6" />
+            <div className="p-7 rounded-2xl bg-[#101721] border border-[#232E3B] space-y-6 shadow-lg">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 pb-5 border-b border-[#232E3B]">
+                <div className="relative group flex-shrink-0">
+                  <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#64F0D1] to-[#7B9CFF] opacity-40 group-hover:opacity-75 blur transition duration-300" />
+                  <img
+                    src={profilePhoto}
+                    alt="Sakshi Rajput"
+                    className="relative w-24 h-24 sm:w-28 sm:h-28 rounded-2xl object-cover border-2 border-[#64F0D1]/60 shadow-xl"
+                  />
+                  <div className="absolute -bottom-2 -right-2 px-2.5 py-0.5 rounded-full bg-[#080C12] border border-[#64F0D1]/50 text-[10px] font-mono text-[#64F0D1] flex items-center gap-1 shadow-md">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#10B981] animate-pulse" />
+                    <span>Active</span>
+                  </div>
                 </div>
                 <div>
-                  <h3 className="font-heading font-bold text-lg text-[#EAF0F6]">Sakshi Rajput</h3>
-                  <p className="text-xs text-[#98A5B6] font-mono">Full Stack Software Developer</p>
+                  <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-[#64F0D1]/10 border border-[#64F0D1]/30 text-[#64F0D1] text-[11px] font-mono mb-2">
+                    <Sparkles className="w-3 h-3" />
+                    <span>Full Stack Developer</span>
+                  </div>
+                  <h3 className="font-heading font-bold text-xl sm:text-2xl text-[#EAF0F6]">Sakshi Rajput</h3>
+                  <p className="text-xs text-[#98A5B6] font-mono mt-1">MCA Graduate • Web & Mobile</p>
                 </div>
               </div>
 

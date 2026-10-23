@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ArrowUpRight, Sparkles } from 'lucide-react';
 import { personalInfo, navLinks } from '../data/portfolioData';
+import profilePhoto from '../assets/Sakshi_Profile_Photo.jpg';
 
 export default function Navbar({ activeSection }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -51,14 +52,22 @@ export default function Navbar({ activeSection }) {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          {/* Logo */}
+          {/* Logo with Profile Avatar */}
           <a
             href="#hero"
             onClick={(e) => handleNavClick(e, '#hero')}
-            className="group flex items-center gap-1.5 focus:outline-none"
+            className="group flex items-center gap-2.5 focus:outline-none"
             aria-label="Sakshi Rajput - Home"
           >
-            <span className="font-heading text-2xl font-bold tracking-tight text-[#EAF0F6] group-hover:text-white transition-colors">
+            <div className="relative">
+              <img
+                src={profilePhoto}
+                alt="Sakshi Rajput"
+                className="w-8 h-8 rounded-full object-cover border border-[#64F0D1]/60 group-hover:border-[#64F0D1] shadow-[0_0_10px_rgba(100,240,209,0.3)] transition-all"
+              />
+              <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-[#10B981] border border-[#080C12]" />
+            </div>
+            <span className="font-heading text-xl sm:text-2xl font-bold tracking-tight text-[#EAF0F6] group-hover:text-white transition-colors">
               sakshi<span className="text-[#64F0D1] inline-block group-hover:scale-125 transition-transform">.</span>
             </span>
           </a>

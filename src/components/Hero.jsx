@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 import { personalInfo } from '../data/portfolioData';
+import profilePhoto from '../assets/Sakshi_Profile_Photo.jpg';
 
 export default function Hero() {
   const [copiedEmail, setCopiedEmail] = useState(false);
@@ -54,12 +55,21 @@ export default function Hero() {
           {/* Left Column - Content */}
           <div className="lg:col-span-7 flex flex-col items-start text-left">
             
-            {/* Status / Role Tag */}
-            <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-[#101721] border border-[#232E3B] text-xs font-semibold tracking-wider text-[#64F0D1] uppercase mb-6 shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-[#64F0D1] animate-ping" />
-              <span>{personalInfo.role}</span>
-              <span className="text-[#232E3B]">•</span>
-              <span className="text-[#98A5B6] font-normal normal-case">2+ Years Exp</span>
+            {/* Status / Role Tag with Profile Avatar */}
+            <div className="inline-flex items-center gap-2.5 pl-1.5 pr-4 py-1 rounded-full bg-[#101721] border border-[#232E3B] text-xs font-semibold tracking-wider text-[#64F0D1] uppercase mb-6 shadow-sm hover:border-[#64F0D1]/40 transition-colors">
+              <div className="relative">
+                <img
+                  src={profilePhoto}
+                  alt="Sakshi Rajput"
+                  className="w-7 h-7 rounded-full object-cover border border-[#64F0D1]/60"
+                />
+                <span className="absolute bottom-0 right-0 w-2 h-2 rounded-full bg-[#10B981] border border-[#101721]" />
+              </div>
+              <div className="flex items-center gap-2">
+                <span>{personalInfo.role}</span>
+                <span className="text-[#232E3B]">•</span>
+                <span className="text-[#98A5B6] font-normal normal-case">2+ Years Exp</span>
+              </div>
             </div>
 
             {/* Main Headline */}
@@ -164,6 +174,39 @@ export default function Hero() {
                 <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-[11px] font-mono bg-[#080C12] text-[#64F0D1] border border-[#232E3B]">
                   <Terminal className="w-3 h-3" />
                   <span>v2.4.0</span>
+                </div>
+              </div>
+
+              {/* Developer Profile Header with Photo */}
+              <div className="flex items-center gap-3.5 sm:gap-4 p-3 sm:p-3.5 rounded-xl bg-[#080C12]/90 border border-[#232E3B] mb-5">
+                <div className="relative flex-shrink-0 group">
+                  <div className="absolute -inset-0.5 rounded-xl bg-gradient-to-r from-[#64F0D1] to-[#7B9CFF] opacity-60 group-hover:opacity-100 blur-sm transition duration-300" />
+                  <img
+                    src={profilePhoto}
+                    alt="Sakshi Rajput"
+                    className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-xl object-cover border-2 border-[#64F0D1]/60 shadow-[0_0_15px_rgba(100,240,209,0.3)]"
+                  />
+                  <span
+                    className="absolute -bottom-1 -right-1 w-3.5 h-3.5 rounded-full bg-[#10B981] border-2 border-[#080C12]"
+                    title="Available for opportunities"
+                  />
+                </div>
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-2">
+                    <h3 className="font-heading font-bold text-base text-[#EAF0F6] truncate">
+                      Sakshi Rajput
+                    </h3>
+                    <span className="px-2 py-0.5 rounded text-[10px] font-mono bg-[#64F0D1]/10 text-[#64F0D1] border border-[#64F0D1]/30 flex-shrink-0">
+                      Full Stack
+                    </span>
+                  </div>
+                  <p className="text-xs text-[#98A5B6] font-mono truncate mt-0.5">
+                    rajputsakshig@gmail.com
+                  </p>
+                  <div className="flex items-center gap-1.5 mt-1 text-xs text-[#64F0D1]">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#64F0D1] animate-pulse" />
+                    <span className="text-[11px] font-medium">Available for opportunities</span>
+                  </div>
                 </div>
               </div>
 
